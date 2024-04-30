@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:80vh;
+    background-color: #595353;
+}
+canvas{
+position:relative;
+left:120px;
+}
+button{
+    width:50px;
+    height:50px;
+    background-color: #fff;
+    text-align: center;
+    padding:15px 15px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #000;
+    cursor:pointer;
+    transition: all 0.5s ease-in;
+}
+button:hover{
+    box-shadow: 0px 0px 0px #000;
+ }
+#knight{
+    
+    position:absolute;
+    top:50px;
+    right:350px;
+}
+#elephant{
+    position:absolute;
+    top:120px;
+    right:350px;
+}
+#boat{
+    position:absolute;
+    top:190px;
+    right:350px;
+}
+#soldier{
+    position:absolute;
+    top:260px;
+    right:350px;
+}
+#queen{
+    position:absolute;
+    top:330px;
+    right:350px;
+}
+#king{
+    position:absolute;
+    top:400px;
+    right:350px;
+}
+img{
+    width:38px;
+    height:38px;
+}
+#soldier img, #elephant img, #boat img, #knight img, #king img, #queen img{
+    position:relative;
+    left:-11px;
+    top:-11px
+}
+#check{
+    position:absolute;
+    top:470px;
+    right:300px;
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    font-family: Fantacy;
+    font-weight: 550;
+    line-height: 5px;
+}
