@@ -237,6 +237,7 @@ check.onclick = ()=>{
         [x + 6,y + 6],
         [x + 7,y + 7],
     ]
+
     elephant.filter(([x,y])=> x>= 0 && y >= 0 && x < 8 && y < 8)
     .forEach(([x,y])=>{
        ctx.fillStyle = "rgba(80,200,120,0.5)";
@@ -250,12 +251,6 @@ check.onclick = ()=>{
 
     let soldier = [
         [x2, y2 - 1],
-        [x2, y2 - 2],
-        [x2, y2 - 3],
-        [x2, y2 - 4],
-        [x2, y2 - 5],
-        [x2, y2 - 6],
-        [x2, y2 - 7]
     ]
     soldier.filter(([x2,y2])=> x2 >= 0 && y2 >= 0 && x2 < 8 && y2 < 8)
     .forEach(([x2,y2])=>{
